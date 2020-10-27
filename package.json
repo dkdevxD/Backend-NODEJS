@@ -1,0 +1,28 @@
+{
+  "name": "01-crud_mysql_jwt",
+  "version": "1.0.0",
+  "description": "Practicing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkdevxD/Practicing.git"
+  },
+  "author": "DkDevxD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkdevxD/Practicing/issues"
+  },
+  "homepage": "https://github.com/dkdevxD/Practicing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  }
+}
