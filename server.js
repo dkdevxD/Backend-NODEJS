@@ -6,7 +6,7 @@ const Tables = require('./database/Tables.js');
 
 conn.connect(error => {
   if (error) {
-    console.log('Error to try to connect with database!');
+    console.log('Erro ao tentar se conectar ao banco de dados!');
   }
   Tables.init(conn);
   app.listen(3000, () => { console.log('Server listening on port 3000') });
